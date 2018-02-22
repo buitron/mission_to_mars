@@ -3,6 +3,23 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background: #FFF;
+}
+
 header {
     background: #A20E2C;
 }
+
+/*#banner {
+    background: #ffcc00;
+
+    .button {
+        background-color: #FFE788;
+
+        &:hover {
+            background-color: #ffeca0;
+
+        }
+    }
+}*/
