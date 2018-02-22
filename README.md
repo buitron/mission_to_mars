@@ -145,7 +145,6 @@ $ python mars.py
  * Debugger PIN: ***-***-***
 127.0.0.1 - - [01/Jan/2000 01:01:01] "GET / HTTP/1.1" 200 -
 ```
-
 3. Congrats! The application is running successfully. Now, to view the result in a browser open up any browser, preferably anything but Internet Explorer, unless you really hate your life then be my guest. Type `localhost:5000` into the url bar and the application should open. Just press the __Scrape that Data Up__ button and wait a few seconds while the application does its thing and gathers the data before presenting it to you. The webpage should look similar to this after it is done processing...
 
 
