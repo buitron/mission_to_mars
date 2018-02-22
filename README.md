@@ -11,7 +11,7 @@ In this assignment, I will build a web application that scrapes various websites
 ---
 
 
-# Step 1 - Scraping
+## Step 1 - Scraping
 
 Complete the initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, Requests/Splinter and/or a mix of these. Utilize whatever is need to complete the objective in the most efficient way possible.
 
@@ -80,7 +80,7 @@ hemisphere_image_urls = [
 
 ---
 
-# Step 2 - MongoDB and Flask Application
+## Step 2 - MongoDB and Flask Application
 
 Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
@@ -101,7 +101,7 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 # Solution
 
-# System Prep
+## System Prep
 
 In order to run this application you will need to have Python version 3.6.3 installed on your system. If you do not have it installed then you can read about how to install it [here](https://docs.python.org/3/using/windows.html#installing-python).
 
@@ -126,7 +126,7 @@ You're now ready to run this bad boy!
 
 ---
 
-# Executing the Flask App
+## Executing the Flask App
 
 Follow these instructions sequentially in order to launch the application.
 
@@ -135,6 +135,7 @@ Follow these instructions sequentially in order to launch the application.
 $ mongod
 ```
 2.  Open up another terminal tab or window and cd into the `solution/` directory of this repo. Type the following code to move into and execute the flask app `mars.py`:
+
 ```bash
 $ cd /path/to/mission_to_mars/solution/
 $ python mars.py
@@ -145,6 +146,7 @@ $ python mars.py
  * Debugger PIN: ***-***-***
 127.0.0.1 - - [01/Jan/2000 01:01:01] "GET / HTTP/1.1" 200 -
 ```
+
 3. Congrats! The application is running successfully. Now, to view the result in a browser open up any browser, preferably anything but Internet Explorer, unless you really hate your life then be my guest. Type `localhost:5000` into the url bar and the application should open. Just press the __Scrape that Data Up__ button and wait a few seconds while the application does its thing and gathers the data before presenting it to you. The webpage should look similar to this after it is done processing...
 
 
