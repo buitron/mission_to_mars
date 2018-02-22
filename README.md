@@ -113,11 +113,11 @@ $ brew install mongodb
 
 Afterwards download or clone this repository into your system and open up your system's shell, preferably using the terminal application running the bash shell. From there follow these instructions in order to install the required modules...
 
-1. Move into the directory where this repo is stored.
+1. Move into the directory where this repo is stored:
 ```bash
 $ cd /path/to/mission_to_mars/
 ```
-2. pip install the modules from the requirements.txt file.
+2. pip install the modules from the requirements.txt file:
 ```bash
 $ pip install -r requirements.txt
 ```
@@ -126,15 +126,15 @@ You're now ready to run this bad boy!
 
 ---
 
-# Execute the Flask App
+# Executing the Flask App
 
 Follow these instructions sequentially in order to launch the application.
 
-1. Open your bash application and start up the mongodb server by type in and executing the following code:
+1. Open your bash application and start up the mongodb server by typing in and executing the following code:
 ```bash
 $ mongod
 ```
-2.  Open up another terminal tab or window and cd into the `solution` directory of this repo. From there type the following code:
+2.  Open up another terminal tab or window and cd into the `solution/` directory of this repo. Type the following code to move into and execute the flask app `mars.py`:
 ```bash
 $ cd /path/to/mission_to_mars/solution/
 $ python mars.py
