@@ -153,5 +153,5 @@ $ python mars.py
 ![final_app_part1.png](Images/final_app_part1.png)
 ![final_app_part2.png](Images/final_app_part2.png)
 
-
-
+# UPDATE! I am now Hosting this App on Heroku
+## Click [HERE](https://mission-2-mars.herokuapp.com/)  to try it out

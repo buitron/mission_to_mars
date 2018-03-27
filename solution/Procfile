@@ -1,0 +1,1 @@
+web: gunicorn mars:app --timeout 60
